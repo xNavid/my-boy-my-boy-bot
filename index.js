@@ -24,7 +24,7 @@ app.post('/new-message', function(req, res) {
     // Hit telegram api    
     axios
       .post(
-        'https://api.telegram.org/bot1057897184:AAEPGvQWbeFGC09ti_UvDiYCY3qN1s_9eF0/sendMessage',
+        'https://api.telegram.org/bot/sendMessage',
         {
           chat_id: message.chat.id,
           text: 'My Boy My Boy !'
